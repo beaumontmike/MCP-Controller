@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		37E41C7D21EE96AD006A0F4F /* MCP_Controller.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 37E41C7C21EE96AD006A0F4F /* MCP_Controller.hpp */; };
+		37E41C7F21EE96AD006A0F4F /* MCP_ControllerPriv.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 37E41C7E21EE96AD006A0F4F /* MCP_ControllerPriv.hpp */; };
+		37E41C8121EE96AD006A0F4F /* MCP_Controller.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 37E41C8021EE96AD006A0F4F /* MCP_Controller.cpp */; };
+		37E41C8E21EE96EC006A0F4F /* DeltaTime.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 37E41C8821EE96EC006A0F4F /* DeltaTime.cpp */; };
+		37E41C8F21EE96EC006A0F4F /* 737_Cockpit_MCP.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 37E41C8921EE96EC006A0F4F /* 737_Cockpit_MCP.cpp */; };
+		37E41C9021EE96EC006A0F4F /* MCPKey.h in Headers */ = {isa = PBXBuildFile; fileRef = 37E41C8A21EE96EC006A0F4F /* MCPKey.h */; };
+		37E41C9121EE96EC006A0F4F /* DeltaTime.h in Headers */ = {isa = PBXBuildFile; fileRef = 37E41C8B21EE96EC006A0F4F /* DeltaTime.h */; };
+		37E41C9221EE96EC006A0F4F /* MCPKey.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 37E41C8C21EE96EC006A0F4F /* MCPKey.cpp */; };
+		37E41C9321EE96EC006A0F4F /* MCPDefs.h in Headers */ = {isa = PBXBuildFile; fileRef = 37E41C8D21EE96EC006A0F4F /* MCPDefs.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		37E41C7921EE96AD006A0F4F /* libMCP Controller.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = "libMCP Controller.dylib"; sourceTree = BUILT_PRODUCTS_DIR; };
+		37E41C7C21EE96AD006A0F4F /* MCP_Controller.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MCP_Controller.hpp; sourceTree = "<group>"; };
+		37E41C7E21EE96AD006A0F4F /* MCP_ControllerPriv.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MCP_ControllerPriv.hpp; sourceTree = "<group>"; };
+		37E41C8021EE96AD006A0F4F /* MCP_Controller.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MCP_Controller.cpp; sourceTree = "<group>"; };
+		37E41C8821EE96EC006A0F4F /* DeltaTime.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DeltaTime.cpp; sourceTree = "<group>"; };
+		37E41C8921EE96EC006A0F4F /* 737_Cockpit_MCP.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 737_Cockpit_MCP.cpp; sourceTree = "<group>"; };
+		37E41C8A21EE96EC006A0F4F /* MCPKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCPKey.h; sourceTree = "<group>"; };
+		37E41C8B21EE96EC006A0F4F /* DeltaTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeltaTime.h; sourceTree = "<group>"; };
+		37E41C8C21EE96EC006A0F4F /* MCPKey.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MCPKey.cpp; sourceTree = "<group>"; };
+		37E41C8D21EE96EC006A0F4F /* MCPDefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCPDefs.h; sourceTree = "<group>"; };
+		37E41C9521EE973F006A0F4F /* wiring_private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = wiring_private.h; sourceTree = "<group>"; };
+		37E41C9621EE973F006A0F4F /* PluggableUSB.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PluggableUSB.cpp; sourceTree = "<group>"; };
+		37E41C9721EE973F006A0F4F /* wiring_pulse.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = wiring_pulse.c; sourceTree = "<group>"; };
+		37E41C9821EE973F006A0F4F /* Client.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Client.h; sourceTree = "<group>"; };
+		37E41C9921EE973F006A0F4F /* HardwareSerial.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HardwareSerial.h; sourceTree = "<group>"; };
+		37E41C9A21EE973F006A0F4F /* Tone.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Tone.cpp; sourceTree = "<group>"; };
+		37E41C9B21EE973F006A0F4F /* wiring.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = wiring.c; sourceTree = "<group>"; };
+		37E41C9C21EE973F006A0F4F /* IPAddress.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IPAddress.h; sourceTree = "<group>"; };
+		37E41C9D21EE973F006A0F4F /* wiring_shift.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = wiring_shift.c; sourceTree = "<group>"; };
+		37E41C9E21EE973F006A0F4F /* WCharacter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WCharacter.h; sourceTree = "<group>"; };
+		37E41C9F21EE973F006A0F4F /* IPAddress.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = IPAddress.cpp; sourceTree = "<group>"; };
+		37E41CA021EE973F006A0F4F /* WString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WString.h; sourceTree = "<group>"; };
+		37E41CA121EE973F006A0F4F /* wiring_digital.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = wiring_digital.c; sourceTree = "<group>"; };
+		37E41CA221EE973F006A0F4F /* HardwareSerial_private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HardwareSerial_private.h; sourceTree = "<group>"; };
+		37E41CA321EE973F006A0F4F /* WString.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = WString.cpp; sourceTree = "<group>"; };
+		37E41CA421EE973F006A0F4F /* Print.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Print.cpp; sourceTree = "<group>"; };
+		37E41CA521EE973F006A0F4F /* new.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = new.h; sourceTree = "<group>"; };
+		37E41CA621EE973F006A0F4F /* USBAPI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = USBAPI.h; sourceTree = "<group>"; };
+		37E41CA721EE973F006A0F4F /* new.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = new.cpp; sourceTree = "<group>"; };
+		37E41CA821EE973F006A0F4F /* Stream.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Stream.h; sourceTree = "<group>"; };
+		37E41CA921EE973F006A0F4F /* abi.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = abi.cpp; sourceTree = "<group>"; };
+		37E41CAA21EE973F006A0F4F /* wiring_pulse.S */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.asm; path = wiring_pulse.S; sourceTree = "<group>"; };
+		37E41CAB21EE973F006A0F4F /* HardwareSerial.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HardwareSerial.cpp; sourceTree = "<group>"; };
+		37E41CAC21EE973F006A0F4F /* Printable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Printable.h; sourceTree = "<group>"; };
+		37E41CAD21EE973F006A0F4F /* Stream.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Stream.cpp; sourceTree = "<group>"; };
+		37E41CAE21EE973F006A0F4F /* USBCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = USBCore.h; sourceTree = "<group>"; };
+		37E41CAF21EE973F006A0F4F /* HardwareSerial1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HardwareSerial1.cpp; sourceTree = "<group>"; };
+		37E41CB021EE973F006A0F4F /* HardwareSerial0.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HardwareSerial0.cpp; sourceTree = "<group>"; };
+		37E41CB121EE973F006A0F4F /* hooks.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = hooks.c; sourceTree = "<group>"; };
+		37E41CB221EE973F006A0F4F /* HardwareSerial2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HardwareSerial2.cpp; sourceTree = "<group>"; };
+		37E41CB321EE973F006A0F4F /* Print.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Print.h; sourceTree = "<group>"; };
+		37E41CB421EE973F006A0F4F /* USBDesc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = USBDesc.h; sourceTree = "<group>"; };
+		37E41CB521EE973F006A0F4F /* HardwareSerial3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HardwareSerial3.cpp; sourceTree = "<group>"; };
+		37E41CB621EE973F006A0F4F /* WInterrupts.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = WInterrupts.c; sourceTree = "<group>"; };
+		37E41CB721EE973F006A0F4F /* wiring_analog.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = wiring_analog.c; sourceTree = "<group>"; };
+		37E41CB821EE973F006A0F4F /* Server.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Server.h; sourceTree = "<group>"; };
+		37E41CB921EE973F006A0F4F /* Arduino.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Arduino.h; sourceTree = "<group>"; };
+		37E41CBA21EE973F006A0F4F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		37E41CBB21EE973F006A0F4F /* CDC.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CDC.cpp; sourceTree = "<group>"; };
+		37E41CBC21EE973F006A0F4F /* Udp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Udp.h; sourceTree = "<group>"; };
+		37E41CBD21EE973F006A0F4F /* PluggableUSB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PluggableUSB.h; sourceTree = "<group>"; };
+		37E41CBE21EE973F006A0F4F /* binary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = binary.h; sourceTree = "<group>"; };
+		37E41CBF21EE973F006A0F4F /* USBCore.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = USBCore.cpp; sourceTree = "<group>"; };
+		37E41CC021EE973F006A0F4F /* WMath.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = WMath.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		37E41C7721EE96AD006A0F4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37E41C7021EE96AD006A0F4F = {
+			isa = PBXGroup;
+			children = (
+				37E41C7B21EE96AD006A0F4F /* MCP Controller */,
+				37E41C7A21EE96AD006A0F4F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		37E41C7A21EE96AD006A0F4F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				37E41C7921EE96AD006A0F4F /* libMCP Controller.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		37E41C7B21EE96AD006A0F4F /* MCP Controller */ = {
+			isa = PBXGroup;
+			children = (
+				37E41C9421EE973F006A0F4F /* Arduino */,
+				37E41C8721EE96DB006A0F4F /* Source */,
+				37E41C7C21EE96AD006A0F4F /* MCP_Controller.hpp */,
+				37E41C7E21EE96AD006A0F4F /* MCP_ControllerPriv.hpp */,
+				37E41C8021EE96AD006A0F4F /* MCP_Controller.cpp */,
+			);
+			path = "MCP Controller";
+			sourceTree = "<group>";
+		};
+		37E41C8721EE96DB006A0F4F /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				37E41C8921EE96EC006A0F4F /* 737_Cockpit_MCP.cpp */,
+				37E41C8821EE96EC006A0F4F /* DeltaTime.cpp */,
+				37E41C8B21EE96EC006A0F4F /* DeltaTime.h */,
+				37E41C8D21EE96EC006A0F4F /* MCPDefs.h */,
+				37E41C8C21EE96EC006A0F4F /* MCPKey.cpp */,
+				37E41C8A21EE96EC006A0F4F /* MCPKey.h */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		37E41C9421EE973F006A0F4F /* Arduino */ = {
+			isa = PBXGroup;
+			children = (
+				37E41C9521EE973F006A0F4F /* wiring_private.h */,
+				37E41C9621EE973F006A0F4F /* PluggableUSB.cpp */,
+				37E41C9721EE973F006A0F4F /* wiring_pulse.c */,
+				37E41C9821EE973F006A0F4F /* Client.h */,
+				37E41C9921EE973F006A0F4F /* HardwareSerial.h */,
+				37E41C9A21EE973F006A0F4F /* Tone.cpp */,
+				37E41C9B21EE973F006A0F4F /* wiring.c */,
+				37E41C9C21EE973F006A0F4F /* IPAddress.h */,
+				37E41C9D21EE973F006A0F4F /* wiring_shift.c */,
+				37E41C9E21EE973F006A0F4F /* WCharacter.h */,
+				37E41C9F21EE973F006A0F4F /* IPAddress.cpp */,
+				37E41CA021EE973F006A0F4F /* WString.h */,
+				37E41CA121EE973F006A0F4F /* wiring_digital.c */,
+				37E41CA221EE973F006A0F4F /* HardwareSerial_private.h */,
+				37E41CA321EE973F006A0F4F /* WString.cpp */,
+				37E41CA421EE973F006A0F4F /* Print.cpp */,
+				37E41CA521EE973F006A0F4F /* new.h */,
+				37E41CA621EE973F006A0F4F /* USBAPI.h */,
+				37E41CA721EE973F006A0F4F /* new.cpp */,
+				37E41CA821EE973F006A0F4F /* Stream.h */,
+				37E41CA921EE973F006A0F4F /* abi.cpp */,
+				37E41CAA21EE973F006A0F4F /* wiring_pulse.S */,
+				37E41CAB21EE973F006A0F4F /* HardwareSerial.cpp */,
+				37E41CAC21EE973F006A0F4F /* Printable.h */,
+				37E41CAD21EE973F006A0F4F /* Stream.cpp */,
+				37E41CAE21EE973F006A0F4F /* USBCore.h */,
+				37E41CAF21EE973F006A0F4F /* HardwareSerial1.cpp */,
+				37E41CB021EE973F006A0F4F /* HardwareSerial0.cpp */,
+				37E41CB121EE973F006A0F4F /* hooks.c */,
+				37E41CB221EE973F006A0F4F /* HardwareSerial2.cpp */,
+				37E41CB321EE973F006A0F4F /* Print.h */,
+				37E41CB421EE973F006A0F4F /* USBDesc.h */,
+				37E41CB521EE973F006A0F4F /* HardwareSerial3.cpp */,
+				37E41CB621EE973F006A0F4F /* WInterrupts.c */,
+				37E41CB721EE973F006A0F4F /* wiring_analog.c */,
+				37E41CB821EE973F006A0F4F /* Server.h */,
+				37E41CB921EE973F006A0F4F /* Arduino.h */,
+				37E41CBA21EE973F006A0F4F /* main.cpp */,
+				37E41CBB21EE973F006A0F4F /* CDC.cpp */,
+				37E41CBC21EE973F006A0F4F /* Udp.h */,
+				37E41CBD21EE973F006A0F4F /* PluggableUSB.h */,
+				37E41CBE21EE973F006A0F4F /* binary.h */,
+				37E41CBF21EE973F006A0F4F /* USBCore.cpp */,
+				37E41CC021EE973F006A0F4F /* WMath.cpp */,
+			);
+			path = Arduino;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		37E41C7521EE96AD006A0F4F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37E41C7F21EE96AD006A0F4F /* MCP_ControllerPriv.hpp in Headers */,
+				37E41C7D21EE96AD006A0F4F /* MCP_Controller.hpp in Headers */,
+				37E41C9121EE96EC006A0F4F /* DeltaTime.h in Headers */,
+				37E41C9021EE96EC006A0F4F /* MCPKey.h in Headers */,
+				37E41C9321EE96EC006A0F4F /* MCPDefs.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		37E41C7821EE96AD006A0F4F /* MCP Controller */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37E41C8421EE96AD006A0F4F /* Build configuration list for PBXNativeTarget "MCP Controller" */;
+			buildPhases = (
+				37E41C7521EE96AD006A0F4F /* Headers */,
+				37E41C7621EE96AD006A0F4F /* Sources */,
+				37E41C7721EE96AD006A0F4F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MCP Controller";
+			productName = "MCP Controller";
+			productReference = 37E41C7921EE96AD006A0F4F /* libMCP Controller.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		37E41C7121EE96AD006A0F4F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = mbeaumont;
+				TargetAttributes = {
+					37E41C7821EE96AD006A0F4F = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 37E41C7421EE96AD006A0F4F /* Build configuration list for PBXProject "MCP Controller" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 37E41C7021EE96AD006A0F4F;
+			productRefGroup = 37E41C7A21EE96AD006A0F4F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				37E41C7821EE96AD006A0F4F /* MCP Controller */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		37E41C7621EE96AD006A0F4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37E41C9221EE96EC006A0F4F /* MCPKey.cpp in Sources */,
+				37E41C8121EE96AD006A0F4F /* MCP_Controller.cpp in Sources */,
+				37E41C8E21EE96EC006A0F4F /* DeltaTime.cpp in Sources */,
+				37E41C8F21EE96EC006A0F4F /* 737_Cockpit_MCP.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		37E41C8221EE96AD006A0F4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		37E41C8321EE96AD006A0F4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		37E41C8521EE96AD006A0F4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G9FS6W5YJ2;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)/MCP Controller/Arduino\"";
+				GCC_ENABLE_CPP_EXCEPTIONS = YES;
+				GCC_ENABLE_CPP_RTTI = YES;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/MCP Controller/Arduino\"";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/MCP Controller/Arduino\"";
+			};
+			name = Debug;
+		};
+		37E41C8621EE96AD006A0F4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G9FS6W5YJ2;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)/MCP Controller/Arduino\"";
+				GCC_ENABLE_CPP_EXCEPTIONS = YES;
+				GCC_ENABLE_CPP_RTTI = YES;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/MCP Controller/Arduino\"";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/MCP Controller/Arduino\"";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		37E41C7421EE96AD006A0F4F /* Build configuration list for PBXProject "MCP Controller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37E41C8221EE96AD006A0F4F /* Debug */,
+				37E41C8321EE96AD006A0F4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37E41C8421EE96AD006A0F4F /* Build configuration list for PBXNativeTarget "MCP Controller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37E41C8521EE96AD006A0F4F /* Debug */,
+				37E41C8621EE96AD006A0F4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 37E41C7121EE96AD006A0F4F /* Project object */;
+}
